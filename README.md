@@ -27,3 +27,14 @@ date || credit || debit || balance
 ## Self-assessment
 
 Once you have completed the challenge and feel happy with your solution, here's a form to help you reflect on the quality of your code: https://docs.google.com/forms/d/1Q-NnqVObbGLDHxlvbUfeAC7yBCf3eCjTmz6GOqC9Aeo/edit
+
+# Process
+
+In this section, I will document how I approached the problem.
+
+## Planning
+
+### Diagram
+
+![Bank Test Diagram](./images/bank_diagram.png "BANK TEST DIAGRAM")
+
