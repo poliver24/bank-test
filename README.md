@@ -40,16 +40,19 @@ In this section, I will document how I approached the problem.
 
     ''' var account = new Account();
 
-    account.deposit(1000); '''
+    account.deposit(1000); 
+    account.currentBalance = 1000'''
 
 2. As a Client, So that I can buy a puppy, I would like to be able to Withdraw money from my bank account.
 
     ''' var account = new Account();
 
-    account.withdraw(500); '''
+    account.deposit(1000); 
+    account.withdraw(500); 
+    account.currentBalance = 500'''
 
 
-4. As a Client, So that I can keep track of my spending, I would like to be able to print a bank statement with my balance changes. 
+3. As a Client, So that I can keep track of my spending, I would like to be able to print a bank statement with my balance changes. 
 
 ''' var account = new Account();
 
@@ -67,7 +70,7 @@ In this section, I will document how I approached the problem.
  '''
 
 
-5. As a Client, So that I can keep track of my finances, I would like to my deposits and withdrawals to be dated
+4. As a Client, So that I can keep track of my finances, I would like to my deposits and withdrawals to be dated
 
 ''' var account = new Account();
 
@@ -84,8 +87,3 @@ In this section, I will document how I approached the problem.
 10/01/2012 || 1000.00 ||        || 1000.00
 
 '''
-
-### Diagram
-
-![Bank Test Diagram](./images/bank_diagram.png "BANK TEST DIAGRAM")
-

@@ -1,7 +1,30 @@
-function Song() {
-}
+var Account = function() {
+  var balance = 0.00
+  var history = []
 
-Song.prototype.persistFavoriteStatus = function(value) {
-  // something complicated
-  throw new Error("not yet implemented");
-};
+  function currentBalance() {
+    return balance;
+  };
+
+  function deposit(amount, date) {
+    balance += amount;
+    history.unshift(date + ' || ' +amount + ' || || ' + balance)
+  };
+
+  function withdraw(amount, date) {
+    balance -= amount;
+    history.unshift(date + ' || || ' + amount + ' || ' + balance)
+  };
+
+  function printStatement() {
+    return "date || credit || debit || balance\n" + history.join('\n');
+  };
+
+  return {
+    currentBalance: currentBalance,
+    deposit: deposit,
+    withdraw: withdraw,
+    printStatement: printStatement
+  }
+
+}
