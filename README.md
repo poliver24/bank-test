@@ -34,6 +34,57 @@ In this section, I will document how I approached the problem.
 
 ## Planning
 
+### User Stories
+
+1. As a Client, So that I can safely store my earnings, I would like to be able to Deposit money into my bank account
+
+    ''' var account = new Account();
+
+    account.deposit(1000); '''
+
+2. As a Client, So that I can buy a puppy, I would like to be able to Withdraw money from my bank account.
+
+    ''' var account = new Account();
+
+    account.withdraw(500); '''
+
+
+4. As a Client, So that I can keep track of my spending, I would like to be able to print a bank statement with my balance changes. 
+
+''' var account = new Account();
+
+    account.deposit(1000);
+    account.deposit(2000);
+
+    account.withdraw(500); 
+
+    account.printStatement();
+
+    credit || debit || balance
+           || 500.00|| 2500.00
+   2000.00 ||       || 3000.00
+   1000.00 ||       || 1000.00
+ '''
+
+
+5. As a Client, So that I can keep track of my finances, I would like to my deposits and withdrawals to be dated
+
+''' var account = new Account();
+
+    account.deposit(1000);
+    account.deposit(2000);
+
+    account.withdraw(500); 
+
+    account.printStatement();
+
+      date || credit  || debit  || balance
+14/01/2012 ||         || 500.00 || 2500.00
+13/01/2012 || 2000.00 ||        || 3000.00
+10/01/2012 || 1000.00 ||        || 1000.00
+
+'''
+
 ### Diagram
 
 ![Bank Test Diagram](./images/bank_diagram.png "BANK TEST DIAGRAM")
