@@ -107,4 +107,10 @@ In this section, I will document how I approached the problem.
 
 ### Tests
 
-To run the tests, open 'SpecRunner.html' from here you should see the passing tests. 
+To run the tests, open 'SpecRunner.html' from here you will see the passing tests.
+
+Additionally, navigate to ./client/spec/bank_test_Spec.js to see the Spec file itself.
+
+## Program Running
+
+![Image of program output](images/account.png "Working Account")
