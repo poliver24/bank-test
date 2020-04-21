@@ -38,24 +38,24 @@ In this section, I will document how I approached the problem.
 
 1. As a Client, So that I can safely store my earnings, I would like to be able to Deposit money into my bank account
 
-    ''' var account = new Account();
+    ``` var account = new Account();
 
     account.deposit(1000); 
-    account.currentBalance = 1000'''
+    account.currentBalance = 1000 ```
 
 2. As a Client, So that I can buy a puppy, I would like to be able to Withdraw money from my bank account.
 
-    ''' var account = new Account();
+    ``` var account = new Account();
 
     account.deposit(1000); 
     account.withdraw(500); 
-    account.currentBalance = 500'''
+    account.currentBalance = 500 ```
 
 
 
 4. As a Client, So that I can keep track of my finances, I would like to be able to print a bank statement with dated deposits and withdrawals. 
 
-''' var account = new Account();
+``` var account = new Account();
 
     account.deposit(1000);
     account.deposit(2000);
@@ -69,7 +69,7 @@ In this section, I will document how I approached the problem.
 13/01/2012 || 2000.00 ||        || 3000.00
 10/01/2012 || 1000.00 ||        || 1000.00
 
-'''
+```
 
 ## Running the project
 
@@ -85,25 +85,25 @@ In this section, I will document how I approached the problem.
 
 1. install Node
 
-2. run ''' node ''' from the terminal
+2. run ``` node ``` from the terminal
 
-3. ''' .load ''' the file into your REPL with ''' .load [file-path]/bank_test.js ''' 
+3. ``` .load ``` the file into your REPL with ``` .load [file-path]/bank_test.js ```
 
 ### Interact with the program
 
 1. Interact and run the project from the javascript console of your browser using the following commands:
 
     Initialise new account with:
-    ''' new_account = new Account '''
+    ``` new_account = new Account ```
 
     Deposit into the account with:
-    ''' new_account.deposit(amount, date); '''
+    ``` new_account.deposit(amount, date); ```
 
     Withdraw from the account with:
-    ''' new_account.withdraw(amount,date); '''
+    ``` new_account.withdraw(amount,date); ```
 
     Print bank statement with:
-    ''' new_account.printStatement(); '''
+    ``` new_account.printStatement(); ```
 
 ### Tests
 
