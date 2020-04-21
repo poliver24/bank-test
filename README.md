@@ -52,25 +52,8 @@ In this section, I will document how I approached the problem.
     account.currentBalance = 500'''
 
 
-3. As a Client, So that I can keep track of my spending, I would like to be able to print a bank statement with my balance changes. 
 
-''' var account = new Account();
-
-    account.deposit(1000);
-    account.deposit(2000);
-
-    account.withdraw(500); 
-
-    account.printStatement();
-
-    credit || debit || balance
-           || 500.00|| 2500.00
-   2000.00 ||       || 3000.00
-   1000.00 ||       || 1000.00
- '''
-
-
-4. As a Client, So that I can keep track of my finances, I would like to my deposits and withdrawals to be dated
+4. As a Client, So that I can keep track of my finances, I would like to be able to print a bank statement with dated deposits and withdrawals. 
 
 ''' var account = new Account();
 
@@ -87,3 +70,41 @@ In this section, I will document how I approached the problem.
 10/01/2012 || 1000.00 ||        || 1000.00
 
 '''
+
+## Running the project
+
+### Setup 
+
+1. First fork and clone the github repository to your local machine. 
+
+#### Run from Browser
+
+1. open 'index.html' 
+
+#### Run from CommandLine
+
+1. install Node
+
+2. run ''' node ''' from the terminal
+
+3. ''' .load ''' the file into your REPL with ''' .load [file-path]/bank_test.js ''' 
+
+### Interact with the program
+
+1. Interact and run the project from the javascript console of your browser using the following commands:
+
+    Initialise new account with:
+    ''' new_account = new Account '''
+
+    Deposit into the account with:
+    ''' new_account.deposit(amount, date); '''
+
+    Withdraw from the account with:
+    ''' new_account.withdraw(amount,date); '''
+
+    Print bank statement with:
+    ''' new_account.printStatement(); '''
+
+### Tests
+
+To run the tests, open 'SpecRunner.html' from here you should see the passing tests. 

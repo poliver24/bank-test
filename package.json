@@ -1,0 +1,24 @@
+{
+  "name": "bank-test",
+  "version": "1.0.0",
+  "description": "bank tech test",
+  "main": "SpecRunner.html",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bank_test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poliver24/bank-test.git"
+  },
+  "author": "Patrick Oliver",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/poliver24/bank-test/issues"
+  },
+  "homepage": "https://github.com/poliver24/bank-test#readme"
+}
