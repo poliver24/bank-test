@@ -40,7 +40,8 @@ In this section, I will document how I approached the problem.
     ``` var account = new Account();
 
     account.deposit(1000); 
-    account.currentBalance = 1000 ```
+    account.currentBalance = 1000 
+    ```
 
 2. As a Client, So that I can buy a puppy, I would like to be able to Withdraw money from my bank account.
 
@@ -48,7 +49,8 @@ In this section, I will document how I approached the problem.
 
     account.deposit(1000); 
     account.withdraw(500); 
-    account.currentBalance = 500 ```
+    account.currentBalance = 500 
+    ```
 
 
 
