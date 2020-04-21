@@ -37,7 +37,7 @@ In this section, I will document how I approached the problem.
 
 1. As a Client, So that I can safely store my earnings, I would like to be able to Deposit money into my bank account
 
-    ``` var account = new Account();
+    ```var account = new Account();
 
     account.deposit(1000); 
     account.currentBalance = 1000 
@@ -45,7 +45,7 @@ In this section, I will document how I approached the problem.
 
 2. As a Client, So that I can buy a puppy, I would like to be able to Withdraw money from my bank account.
 
-    ``` var account = new Account();
+    ```var account = new Account();
 
     account.deposit(1000); 
     account.withdraw(500); 
@@ -56,7 +56,7 @@ In this section, I will document how I approached the problem.
 
 3. As a Client, So that I can keep track of my finances, I would like to be able to print a bank statement with dated deposits and withdrawals. 
 
-``` var account = new Account();
+```var account = new Account();
 
     account.deposit(1000);
     account.deposit(2000);
