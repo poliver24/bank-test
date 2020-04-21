@@ -17,8 +17,7 @@
 **When** she prints her bank statement  
 **Then** she would see
 
-```
-date || credit || debit || balance
+```date || credit || debit || balance
 14/01/2012 || || 500.00 || 2500.00
 13/01/2012 || 2000.00 || || 3000.00
 10/01/2012 || 1000.00 || || 1000.00
@@ -53,7 +52,7 @@ In this section, I will document how I approached the problem.
 
 
 
-4. As a Client, So that I can keep track of my finances, I would like to be able to print a bank statement with dated deposits and withdrawals. 
+3. As a Client, So that I can keep track of my finances, I would like to be able to print a bank statement with dated deposits and withdrawals. 
 
 ``` var account = new Account();
 
@@ -67,9 +66,7 @@ In this section, I will document how I approached the problem.
       date || credit  || debit  || balance
 14/01/2012 ||         || 500.00 || 2500.00
 13/01/2012 || 2000.00 ||        || 3000.00
-10/01/2012 || 1000.00 ||        || 1000.00
-
-```
+10/01/2012 || 1000.00 ||        || 1000.00 ```
 
 ## Running the project
 
